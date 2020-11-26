@@ -4,3 +4,5 @@ steps:
     parallelism: 2
     agents:
       queue: "${BUILDKITE_AGENT_META_DATA_QUEUE:-default}"
+    env:
+      KEY_BUILDKITE_EXERCISE: 'yep-that-is-me'
